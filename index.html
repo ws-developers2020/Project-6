@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
+        rel="stylesheet">
+    <title>Sass Project</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <input type="checkbox" id="check" class="checkbox" hidden>
+        <div class="hamburger-menu">
+            <label for="check" class="menu">
+                <div class="menu-line menu-line-1"></div>
+                <div class="menu-line menu-line-2"></div>
+                <div class="menu-line menu-line-3"></div>
+            </label>
+        </div>
+        <div class="navbar-navigation">
+            <div class="navbar-navigation-left">
+                <img src="images/nav1.jpg" class="left-img left-img-1">
+                <img src="images/nav2.jpg" class="left-img left-img-2">
+                <img src="images/nav5.jpg" class="left-img left-img-3">
+            </div>
+            <div class="navbar-navigation-right">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="index.html" class="nav-list-link">خانه</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="https://my.vanocka.ir/" class="nav-list-link">سفارش نان</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#about-us-1" class="nav-list-link">درباره ما </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#cotect-us" class="nav-list-link"> تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <header class="header">
+        <div class="brand">
+            <a href="index.html" class="logo">
+                <img src="images/vanocka-1.jpg" alt="" class="logo-img">
+            </a>
+            <div>
+                <h1 class="main-name">وانوکا</h1>
+            </div>
+        </div>
+        <div class="header-banner">
+            <h1 class="main-heading">خوش آمدید</h1>
+            <h3 class="sub-heading">بهترین کیفیت را با ما تجربه کنید</h3>
+            <button type="button" class="main-btn"><a href="https://my.vanocka.ir/" target="_blank" style="color: white; text-decoration: none;">سفارش نان</a></button>
+        </div>
+    </header>
+
+    <section class="about-us" id="about-us-1">
+        <div class="about-us-left">
+            <img src="images/nav6.jpg" alt="درباره ما">
+        </div>
+        <div class="about-us-right">
+            <h1 class="main-heading">درباره وانوکا</h1>
+            <h3 class="sub-heading">درباره محصولات وانوکا</h3>
+            <div class="stars">
+                <i class="fa fa-star-of-life star"></i>
+                <i class="fa fa-star-of-life star"></i>
+                <i class="fa fa-star-of-life star"></i>
+            </div>
+            <p class="description">
+                مجموعه وانوکا  در زمینه تولید و پخت نان های فانتزی با بالاترین کیفیت  فعالیت دارد و آماده همکاری با مجموعه های مختلف بصورت عمده و تکی میباشد .برای سفارش نان میتوانید از طریق این وب سایت و صفحات مجازی مجموعه اقدام کنید .
+            </p>
+            <div class="stars">
+                <i class="fa fa-star-of-life star"></i>
+                <i class="fa fa-star-of-life star"></i>
+                <i class="fa fa-star-of-life star"></i>
+            </div>
+            <!-- <button type="button" class="main-btn  m-b-2">اطلاعات بیشتر</button> -->
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="cards-wrapper">
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">بروچن کره ای </h1>
+                    <p class="card-overlay-paragraph">قیمت : 4500 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%d8%a8%d8%b1%d9%88%da%86%d9%86-%da%a9%d8%b1%d9%87-%d8%a7%db%8c/" target="_blank" style="color: black; text-decoration: none;">سفارش </a></button>
+                </div>
+                <img src="images/nav3.jpg" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">چیاباتا</h1>
+                    <p class="card-overlay-paragraph">قیمت : 17000 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%da%86%db%8c%d8%a7%d8%a8%d8%a7%d8%aa%d8%a7/" target="_blank" style="color: black; text-decoration: none;">سفارش </a></button>
+                </div>
+                <img src="images/chiapata.jpg" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading"> نان برگر کره ای</h1>
+                    <p class="card-overlay-paragraph">قیمت : 10000 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%d9%86%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b1-%da%a9%d8%b1%d9%87-%d8%a7%db%8c/" target="_blank" style="color: black; text-decoration: none;">سفارش </a></button>
+                </div>
+                <img src="images/nav7.jpg" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading"> نان برگر مک ساده</h1>
+                    <p class="card-overlay-paragraph">قیمت : 8000 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%d9%86%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b1-%d9%85%da%a9-%d8%b3%d8%a7%d8%af%d9%87/" target="_blank" style="color: black; text-decoration: none;">سفارش </a></button>
+                </div>
+                <img src="images/nav8.jpg" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">نان برگر مک کنجدی</h1>
+                    <p class="card-overlay-paragraph">قیمت : 9000 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%d9%86%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b1-%d9%85%da%a9-%da%a9%d9%86%d8%ac%d8%af%db%8c/" target="_blank" style="color: black; text-decoration: none;">سفارش </a> </button>
+                </div>
+                <img src="images/nav1.jpg" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading"> نان باگت کره ای</h1>
+                    <p class="card-overlay-paragraph">قیمت : 20000 </p>
+                    <button type="button" class="card-overlay-btn"><a href="https://my.vanocka.ir/product/%d9%86%d8%a7%d9%86-%d8%a8%d8%a7%da%af%d8%aa-%da%a9%d8%b1%d9%87-%d8%a7%db%8c/" target="_blank" style="color: black; text-decoration: none;">سفارش </a></button>
+                </div>
+                <img src="images/nav4.jpg" class="card-img">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <footer class="footer" id="cotect-us">
+        <div class="footer-header">
+            <a href="index.html" class="logo">
+                <img src="images/vanocka-1.jpg" alt="" class="logo-img">
+            </a>
+            <div>
+                <h1 class="main-foot"> مجموعه پخت نان وانوکا</h1>
+                <h3 class="sub-foot" dir="rtl">ایمیل : Vanocka.bakery@gmail.com</h3>
+                <h3 class="sub-foot" dir="rtl">شماره تماس : 09012400737</h3>
+            </div>
+        </div>
+        <div class="footer-social-media">
+            <ul class="social-media">
+                <li class="social-media-item">
+                    <a href="#" class="social-media-link">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+            
+
+            
+                <li class="social-media-item">
+                    <a href="#" class="social-media-link">
+                        <i class="fab fa-google-plus-square"></i>
+                    </a>
+                </li>
+            
+
+            
+                <li class="social-media-item">
+                    <a href="https://instagram.com/ali_ansari2000?igshid=MzRlODBiNWFlZA==" class="social-media-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            
+
+            
+                <li class="social-media-item">
+                    <a href="#" class="social-media-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p class="footer-copyright-paragraph">
+                &copy; کپی رایت. تمام حقوق این سایت متعلق به تیم <a href="https://ws-developers.com" class="a-ws" target="_blank">ws developers </a>میباشد .
+            </p>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
